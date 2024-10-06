@@ -39,5 +39,6 @@ We do a unit test, such as domain layer like :
 (Assumed that you have already install Text Editor (Android Studio or VSCode) & Flutter itself)
 
 1. After it cloned, run `flutter pub get` in you favorite terminal 
-2. Prepare your real device or use Emulator / Simulator 
-3. Then run `flutter run -t lib/launcher/main.dart` to run your project into your real device / Emulator / Simulator
+2. Prepare your real device or use Emulator / Simulator
+3. This project is using `build_runner` to generate data models. Please run `dart run build_runner build` to generate model.
+4. Then run `flutter run -t lib/launcher/main.dart` to run your project into your real device / Emulator / Simulator
